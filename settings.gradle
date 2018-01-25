@@ -1,0 +1,2 @@
+rootProject.name = 'SparkDemos'
+include 'deeplearning4j_example'
