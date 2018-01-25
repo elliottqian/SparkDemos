@@ -14,13 +14,13 @@ subprojects {
      */
     repositories {
         mavenLocal()
-        maven {
-            credentials{
-                username 'developer'
-                password 'netease'
-            }
-            url 'http://mvn.hz.netease.com/artifactory/repo'
-        }
+//        maven {
+//            credentials{
+//                username 'developer'
+//                password 'netease'
+//            }
+//            url 'http://mvn.hz.netease.com/artifactory/repo'
+//        }
         maven {url "http://maven.aliyun.com/nexus/content/groups/public/"}
         mavenCentral()
     }

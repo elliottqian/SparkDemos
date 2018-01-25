@@ -11,6 +11,8 @@ apply plugin: 'scala'
 apply plugin: 'java'
 
 dependencies {
+    compile files('D:\\dist-spark-2.1.1-scala-2.11.8-linux64-0.4.0-20171123.035714-14-dist\\lib\\bigdl-SPARK_2.1-0.4.0-SNAPSHOT-jar-with-dependencies.jar')
+
     compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.1.1'
     compile group: 'org.apache.spark', name: 'spark-mllib_2.11', version: '2.1.1'
     compile group: 'org.apache.spark', name: 'spark-sql_2.11', version:'2.1.1'
